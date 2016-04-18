@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 .setTicker("hello")
                 .setContentTitle("hello one")
                 .setContentText("hello content text")
+                // with out setsmallicon method notification wont work
                 .setSmallIcon(R.drawable.profile)
 //                .setLargeIcon(R.drawable.profile)
                 .setLargeIcon(convertToBitMamp(R.drawable.profile))
